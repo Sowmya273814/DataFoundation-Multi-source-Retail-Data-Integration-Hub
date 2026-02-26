@@ -1,4 +1,20 @@
+# Python
 __pycache__/
 *.pyc
-config/credentials.json
+venv/
+
+# Environment / Credentials
 .env
+config/credentials.json
+
+# Data files (VERY IMPORTANT)
+data/raw/*
+data/processed/*
+data/logs/*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
